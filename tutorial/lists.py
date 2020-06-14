@@ -2,9 +2,10 @@ s = 'django'
 
 print(s[0])
 print(s[-1])
-print(s[0:4])
+print(s[:4])
 print(s[1:4])
 print(s[-2:])
+print(s[::-1])
 
 l = [3, 7, [1, 4, 'hello']]
 l[2][2] = 'goodbye'
@@ -26,3 +27,4 @@ age = 4
 name = "Sammy"
 
 print(f"Hello my dog's name is {name} and he is {age} years old")
+print("Hello my dog's name is {name} and he is {age} years old".format(name=name, age=age))
