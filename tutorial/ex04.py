@@ -8,10 +8,10 @@ class Book():
         return "Title: {}, Author: {}, Pages: {}".format(self.title, self.author, self.pages)
 
     def __len__(self):
-      return self.pages
+        return self.pages
 
     def __del__(self):
-      print("a book is destroyed!")
+        print("a book is destroyed!")
 
 
 b = Book("Python", "jose", 200)
